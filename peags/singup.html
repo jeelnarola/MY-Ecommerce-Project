@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sing-Up</title>
+    <style>
+        @import url(../styel/singup.css);
+        @import url(../styel/home.css);
+    </style>
+</head>
+<body>
+    <section class="form-sec">
+        <div class="container">
+            <div class="row">
+                <div class="w-50">
+                    <div class="box">
+                        <div class="singup">
+                            <div class="contet">
+                                <h1>welcome</h1>
+                                <h4>sing-up form</h4>
+                                <h5>already a member ? </h5>
+                                <a href="../peags/singin.html">log in</a>
+                            </div>
+                        </div>
+                        <form id="sing-up-form">
+                            <label>first name :</label>
+                            <input type="text" id="first"><br>
+                            <label> last name  : </label>
+                            <input type="text" id="last"><br>
+                            <label> email  : </label>
+                            <input type="email" id="email"><br>
+                            <label> password  : </label>
+                            <input type="password" id="pass"><br>
+                            <p id="pass"></p>
+                            <div class="flex align-item">
+                                <input type="checkbox" id="checkbox">
+                                <p>show password !</p>
+                            </div>
+                            <button type="submit">sing-up</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="/javascript/singup.js"></script>
+</html>
