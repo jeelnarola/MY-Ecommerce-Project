@@ -6,6 +6,28 @@
       "email": "narola@gmail.com",
       "password": "Jeelnarola123!",
       "id": 1
+    },
+    {
+      "first": "jeel",
+      "last": "narola",
+      "email": "jeelnarola9@gmail.com",
+      "password": "Jeelnarola123@",
+      "id": 2
+    },
+    {
+      "first": "jeel",
+      "last": "narola",
+      "email": "narola11@gmail.com",
+      "password": "Jeelpatel123@",
+      "id": 3
+    },
+    {
+      "first": "bhavinbhai",
+      "last": "patel",
+      "email": "bhavinbhai@gmail.com",
+      "password": "Bhavinbhai123$",
+      "id": 4
     }
-  ]
+  ],
+  "singin": []
 }

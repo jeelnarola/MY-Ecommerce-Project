@@ -53,14 +53,21 @@ e.preventDefault()
         .then((data)=>{
             console.log(data);
             if(data.length>0){
-                alert("same")
+                if((data.length==singupdata.email)){
+                    alert("same")
+                }
             }
             else{
-                fetch(`http://localhost:3000/singup`,{
-                    method:"POST",
-                    headers:{"content-type":"application/json"},
-                    body:JSON.stringify(singupdata)
-                })
+                try{
+                    fetch(`http://localhost:3000/singup`,{
+                        method:"POST",
+                        headers:{"content-type":"application/json"},
+                        body:JSON.stringify(singupdata)
+                    })
+                    localStorage.setItem("sing",true)
+                }catch(err){
+                    alert("err")
+                }
             }
         })
     }  

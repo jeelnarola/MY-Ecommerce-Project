@@ -1,0 +1,45 @@
+#singin{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    padding: 20px;
+}
+#singin input::placeholder{
+    color: aliceblue;
+}
+#singin input{
+    padding: 4px 20px;
+    display: block;
+    margin: auto;
+    margin: 30px 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(254, 254, 254);
+    color: aliceblue;
+}
+#singin h2{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+#singin #singinbtn{
+    display: block;
+    margin: auto;
+    padding: 8px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgba(30, 143, 255, 0.906);
+    text-transform: uppercase;
+    color: aliceblue;
+    margin-top: 40px;
+}
