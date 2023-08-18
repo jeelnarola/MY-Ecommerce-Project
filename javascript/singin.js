@@ -1,4 +1,5 @@
-
+import header from "../componant/header.js";
+document.getElementById("nav").innerHTML=header()
 
 document.getElementById("singin").addEventListener("submit",(e)=>{
     e.preventDefault();
@@ -16,8 +17,17 @@ document.getElementById("singin").addEventListener("submit",(e)=>{
             localStorage.setItem("login",true)
            } 
            else{
-            window.location.href="/peags/singup.html"
+            alert("password worng !")
+            setTimeout(() => {
+                window.location.href="/peags/singup.html"
+            }, 1000);
            }          
+        }
+        else{
+            alert("user not found !")
+            setTimeout(()=>{
+                window.location.href="/peags/singup.html"
+            },1000)
         }
     })
 

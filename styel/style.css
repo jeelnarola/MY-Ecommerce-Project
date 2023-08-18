@@ -1,0 +1,202 @@
+  /* HOME CSS */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+outline: none;
+}
+.container{
+max-width: 1140px;
+margin: auto;
+}
+.row{
+display: flex;
+flex-wrap: wrap;
+}
+ul,ol{
+list-style: none;
+}
+li{
+text-decoration: none;
+}
+a{
+text-decoration: none;
+}
+.padding{
+    padding: 0px;
+}
+.w-50{
+    width: 50%;
+    padding: 10px 0px;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-content{
+    justify-content: space-between;
+}
+.align-item{
+    align-items: center;
+}
+nav ul{
+    padding: 30px 0px;
+}
+nav ul li {
+    padding: 0px 30px;
+    font-size: 20px;
+}
+.header-btn a{
+    padding: 5px;
+    font-size: 18px;
+    color: black;
+    text-transform: capitalize;
+    background-color: aqua;
+    border-top: 10px solid white;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    margin: 0px 5px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+
+    /* SING-UP FROM CSS DESING */
+
+
+.box{
+ background-color: antiquewhite;
+ border-radius:0px 20px 20px 0px ;
+ position: relative;
+}
+.box .singup{
+    border-bottom: 300px solid transparent;
+    border-left:300px solid black;
+    overflow: hidden;
+}
+.singup .contet{
+    position: absolute;
+    left:20px;
+    color: aliceblue;
+}
+.singup .contet h1{
+    margin-top: 10px;
+    margin-left: 15px;
+    letter-spacing:5px;
+    font-size: 35px;
+}
+.singup .contet h4{
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.singup .contet h5{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.singup .contet a{
+    display: inline-block;
+    margin-top:10px;
+    margin-left: 35px;
+    color: red;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+#sing-up-form{
+    position: absolute;
+    top: 0;
+    right: -20px;
+    margin: 40px;
+    margin-top: 30px;
+}
+#sing-up-form input{
+    margin: 5px;
+    margin-top: 10px;
+    padding: 2px 2px;
+}
+#sing-up-form label{
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+#sing-up-form #email{
+    margin-left: 45px;
+}
+#sing-up-form #checkbox{
+    margin-left: 30px;
+    color: black;
+}#sing-up-form  p{
+    color: rgb(15, 14, 14);
+    font-size: 15px;
+    margin-top: 5px;
+    text-transform: capitalize;
+}
+#sing-up-form button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid black;
+}
+.form-sec{
+    position:absolute;
+    contain: "";
+    top: 100px;
+    left: 0px;
+    bottom: 0;
+    right: 0px;
+} 
+
+        /* SING-IN FROM CSS DESING */
+
+        #singin{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+    padding: 20px;
+}
+#singin input::placeholder{
+    color: aliceblue;
+}
+#singin input{
+    padding: 4px 20px;
+    display: block;
+    margin: auto;
+    margin: 30px 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(254, 254, 254);
+    color: aliceblue;
+}
+#singin h2{
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 20px;
+}
+#singin #singinbtn{
+    display: block;
+    margin: auto;
+    padding: 8px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgba(30, 143, 255, 0.906);
+    text-transform: uppercase;
+    color: aliceblue;
+    margin-top: 40px;
+}

@@ -1,3 +1,7 @@
+import header from "../componant/header.js";
+
+document.getElementById("header").innerHTML=header()
+
 const show=()=>{
     let a=document.getElementById("pass")
     if(a.type==="password"){
