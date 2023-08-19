@@ -6,6 +6,7 @@
     <title>sing-in</title>
     <style>
         @import url(../styel/style.css);
+        @import url(../styel/all.min.css);
     </style>
 </head>
 <body>
@@ -16,10 +17,24 @@
                 <h2>log-in</h2>
                 <input type="email" id="email" placeholder="Email">
                 <input type="text" id="pass" placeholder="password">
+                <a href=""><P id="password-cheng">forget password ? </P></a>
                 <button type="submit" id="singinbtn">sing-in</button>
             </form>
         </div>
     </section>
+    <div id="confrom">
+        <div class="conform-box">
+            <i class="fa-solid fa-xmark"></i>
+            <h4>enetr a email id confrom !</h4>
+            <form id="email-from">
+                <input type="text" id="email-2" placeholder="email enter"><input type="submit" value="submit" id="submit">
+            </form>
+        </div>
+        <div class="confrom-pass">
+            <input type="text" id="pass-con" placeholder="password">
+            <button type="submit" id="confrom-btn">confrom</button>
+        </div>
+    </div>
 </body>
 <script type="module" src="/javascript/singin.js"></script>
 </html>

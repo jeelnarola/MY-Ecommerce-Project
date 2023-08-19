@@ -13,7 +13,7 @@ const header=()=>{
             </nav>
             <div class="header-btn">
                 <a href="">singin</a>
-                <a href="peags/singup.html">sing-up</a>
+                <a href="peags/singup.html">sign-up</a>
             </div>
         </div>
         </div>

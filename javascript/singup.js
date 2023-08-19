@@ -1,6 +1,10 @@
-import header from "../componant/header.js";
+// import header from "../componant/header.js";
 
-document.getElementById("header").innerHTML=header()
+import header from "../componant/header.js"
+
+document.getElementById("nav").innerHTML=header()
+
+    // PSSWORD SHOW EVENT
 
 const show=()=>{
     let a=document.getElementById("pass")
@@ -12,6 +16,8 @@ const show=()=>{
     }
 }
 document.getElementById("checkbox").addEventListener("click",show)
+
+        // SING-IN FORM VALIDATION
 
 document.getElementById("sing-up-form").addEventListener("submit",(e)=>{
 e.preventDefault()
@@ -58,7 +64,10 @@ e.preventDefault()
             console.log(data);
             if(data.length>0){
                 if((data.length==singupdata.email)){
-                    alert("same")
+                    alert("Email")
+                    setTimeout(()=>{
+                        window.location.href="/peags/singin.html"
+                    },1000)
                 }
             }
             else{
@@ -69,6 +78,7 @@ e.preventDefault()
                         body:JSON.stringify(singupdata)
                     })
                     localStorage.setItem("sing",true)
+                    window.location.href="/index.html"
                 }catch(err){
                     alert("err")
                 }
@@ -77,7 +87,7 @@ e.preventDefault()
     }  
 })
 
-//NAME
+    //  NAME ENTER RIGHT AND WRONG    
 
 document.getElementById("first").addEventListener("keypress",()=>{
     let first=document.getElementById("first").value
@@ -90,7 +100,8 @@ document.getElementById("first").addEventListener("keypress",()=>{
     }
 })
 
-// last name
+        // LAST NAME ENTER RIGHT AND WRONG
+
 document.getElementById("last").addEventListener("keypress",()=>{
     let last=document.getElementById("last").value
     let nameregex=/^[A-Za-z. ]{3,30}$/;
@@ -102,7 +113,8 @@ document.getElementById("last").addEventListener("keypress",()=>{
     }
 })
 
-// EMAIL 
+        // EMAIL NAME ENTER RIGHT AND WRONG
+
 document.getElementById("email").addEventListener("keypress",()=>{
     let email=document.getElementById("email").value
     let emailregerx=/(\<|^)[\w\d._%+-]+@(?:[\w\d-]+\.)+(\w{2,})(\>|$)/;
@@ -114,7 +126,7 @@ document.getElementById("email").addEventListener("keypress",()=>{
     }
 })
 
-//PASSWORD
+        // PASSWORD ENTER RIGHT AND WRONG
 
 document.getElementById("pass").addEventListener("keypress",()=>{
     let password=document.getElementById("pass").value

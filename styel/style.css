@@ -157,7 +157,7 @@ nav ul li {
 
         #singin{
     width: 300px;
-    height: 300px;
+    height: 330px;
     background-color: black;
     position: absolute;
     top:0px;
@@ -171,10 +171,11 @@ nav ul li {
     color: aliceblue;
 }
 #singin input{
-    padding: 4px 20px;
+    padding: 4px 15px;
     display: block;
     margin: auto;
-    margin: 30px 20px;
+    margin: 10px 20px;
+    margin-top: 30px;
     background-color: transparent;
     border: none;
     border-bottom: 2px solid rgb(254, 254, 254);
@@ -199,4 +200,85 @@ nav ul li {
     text-transform: uppercase;
     color: aliceblue;
     margin-top: 40px;
+    margin-bottom: 60px;
+}
+#password-cheng{
+    color: aliceblue;
+    font-size: 14px;
+    color: cornflowerblue;
+    font-weight: 500;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin: 0px 50px;
+    padding: 0px;
+    display: flex;
+    justify-content: end;
+    text-transform: capitalize;
+}
+
+.conform-box{
+    width: 400px;
+    height: 180px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+.conform-box h4{
+    text-align: center;
+    padding-top: 20px;
+}
+.conform-box input{
+    padding: 10px 10px;
+    margin: 40px 0px;
+    background-color: rgb(110, 175, 231);
+    border: none;
+}
+.conform-box #email-2{
+    margin-left: 50px;
+    border-radius: 10px 0px 0px 10px;
+}
+.conform-box #submit{
+    border-radius: 0px 10px 10px 0px;
+    border-left: 1px solid black;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+.conform-box .fa-xmark{
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+}
+
+    /* CONFROM-PASSWORD */
+
+.confrom-pass{
+    width: 200px;
+    height: 100px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+}
+.confrom-pass input{
+    margin: 15px 0px 0px 8px;
+    padding: 5px 10px;
+}
+.confrom-pass button{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    padding: 6px 20px;
 }
