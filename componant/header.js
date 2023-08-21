@@ -6,14 +6,14 @@ const header=()=>{
                 <h1>jeel</h1>
             <nav>
                 <ul class="row">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Product</a></li>
-                    <li><a href="">Cart</a></li>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/peags/product.html">Product</a></li>
+                    <li><a href="/peags/cart.html">Cart</a></li>
                 </ul>
             </nav>
             <div class="header-btn">
-                <a href="">singin</a>
-                <a href="peags/singup.html">sign-up</a>
+                <a href="/peags/singin.html">singin</a>
+                <a href="/peags/singup.html">sign-up</a>
             </div>
         </div>
         </div>

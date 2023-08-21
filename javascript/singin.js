@@ -63,12 +63,12 @@ document.querySelector("#email-from").addEventListener("submit",(e)=>{
 })
 
     // CONFROM PASSWORD
-
+// let id=1
 document.getElementById("confrom-btn").addEventListener("click",()=>{
     let passd=document.getElementById("pass-con").value
 
     console.log(passd);
-    // fetch(`http://localhost:3000/singup?email=${emailss}`,{
+    // fetch(`http://localhost:3000/singup`,{
     //     method:"PATCH",
     //     headers:{"content-type":"application/json"},
     //     body:JSON.stringify(passd)

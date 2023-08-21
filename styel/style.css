@@ -282,3 +282,52 @@ nav ul li {
     margin-top: 15px;
     padding: 6px 20px;
 }
+#product-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+}
+#product-box div{
+    padding: 20px 40px;
+}
+#product-box img{
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin: 10px 0px;
+}
+#product-box h3{
+    margin: 10px 0px;
+}
+#product-box h5{
+    margin: 10px 0px;
+}
+#product-box h1{
+    margin: 10px 0px;
+}
+#product-aside{
+    position: fixed;
+    width: 200px;
+    height: 100vh;
+    border: 1px solid black;
+    margin: 0px 10px;
+}
+#htl{
+    margin: 10px 5px;
+    padding: 5px 5px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#lth{
+    margin: 10px 5px;
+    padding: 5px 5px;
+    background-color: cornflowerblue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
