@@ -308,6 +308,14 @@ nav ul li {
 #product-box h1{
     margin: 10px 0px;
 }
+#product-box button{
+    padding: 5px 10px;
+    margin: 10px;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: rgb(221, 153, 26);
+}
 #product-aside{
     position: fixed;
     width: 200px;
@@ -330,4 +338,55 @@ nav ul li {
     color: white;
     border: 1px solid black;
     border-radius: 10px;
+}
+#all{
+    padding: 5px 40px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    font-size: 15px;
+    text-transform: capitalize;
+    background-color: cornflowerblue;
+    color: white;
+}
+#cart-right{
+    width: 90%;
+    height: 100vh;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+table{
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    margin: 0px;
+}
+table thead{
+    border: 1px solid black;
+}
+table thead th,table tbody tr td{
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+tbody{
+    padding: 0;
+}
+#name{
+    font-size: 10px;
+}
+#cart-img{
+    width: 50px;
+}
+tfoot tr td{
+    border: 1px solid black;
+    padding: 5px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
 }

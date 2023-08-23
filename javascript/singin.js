@@ -13,7 +13,7 @@ document.getElementById("singin").addEventListener("submit",(e)=>{
         console.log(data);
         if(data.length>0){
            if(data[0].password==password){
-            localStorage.setItem("login",true)
+            localStorage.setItem("sing",true)
            } 
            else{
             alert("password worng !")
@@ -42,7 +42,7 @@ document.getElementById("password-cheng").addEventListener("click",(e)=>{
 })
 
     // EMAIL MATCH TO POPUP BOX
-
+let id=-1
 document.querySelector("#email-from").addEventListener("submit",(e)=>{
     e.preventDefault()
     let i=document.getElementById("email-2").value
@@ -52,6 +52,8 @@ document.querySelector("#email-from").addEventListener("submit",(e)=>{
    .then((data)=>{
     if(data.length>0){
         alert("yes")
+        id=data[0].id
+        console.log(id);
         document.querySelector(".confrom-pass").style.display="block"
     }
     else{
@@ -68,11 +70,11 @@ document.getElementById("confrom-btn").addEventListener("click",()=>{
     let passd=document.getElementById("pass-con").value
 
     console.log(passd);
-    // fetch(`http://localhost:3000/singup`,{
-    //     method:"PATCH",
-    //     headers:{"content-type":"application/json"},
-    //     body:JSON.stringify(passd)
-    // })
+    fetch(`http://localhost:3000/singup/${id}`,{
+        method:"PATCH",
+        headers:{"content-type":"application/json"},
+        body:JSON.stringify({password:passd})
+    })
 
 })
 
