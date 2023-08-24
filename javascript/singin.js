@@ -14,6 +14,8 @@ document.getElementById("singin").addEventListener("submit",(e)=>{
         if(data.length>0){
            if(data[0].password==password){
             localStorage.setItem("sing",true)
+            localStorage.setItem("login",JSON.stringify(...data))
+            window.location.href="/index.html"
            } 
            else{
             alert("password worng !")

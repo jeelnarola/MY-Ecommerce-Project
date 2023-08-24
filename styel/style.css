@@ -390,3 +390,39 @@ tfoot tr td{
     text-align: center;
     font-size: 20px;
 }
+
+        /* HOME PAEG DESING */
+
+
+.aside-div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10%;
+    padding: 20px 0px;
+}
+.first{
+    font-size: 40px;
+    margin-top: 20px;
+}
+.last{
+    /* margin-top: 10px; */
+    font-size: 20px;
+}
+.email{
+    margin-top: 10px;
+}
+#aside{
+    width: 300px;
+    height: 100vh;
+    border: 2px dotted black;
+}
+#aside .user-name{
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 40px;
+    padding: 20px 0px;
+}

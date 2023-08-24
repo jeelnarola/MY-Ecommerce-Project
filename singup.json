@@ -22,13 +22,6 @@
       "id": 3
     },
     {
-      "first": "bhavinbhai",
-      "last": "patel",
-      "email": "bhavinbhai@gmail.com",
-      "password": "sssss",
-      "id": 4
-    },
-    {
       "first": "harshil",
       "last": "lakhani",
       "email": "harshil29@gmail.com",
@@ -41,6 +34,34 @@
       "email": "nensi29@gmail.com",
       "password": "Nenasi182!",
       "id": 6
+    },
+    {
+      "first": "akshar",
+      "last": "gabani",
+      "email": "akashr18@gmail.com",
+      "password": "Akashar123!",
+      "id": 7
+    },
+    {
+      "first": "piush",
+      "last": "piush",
+      "email": "piush29@gmail.com",
+      "password": "Piush123$",
+      "id": 8
+    },
+    {
+      "first": "bhavinbhai",
+      "last": "narola",
+      "email": "kamalrokad2002@gmail.com",
+      "password": "Aasdef123",
+      "id": 10
+    },
+    {
+      "first": "neer",
+      "last": "sarsiya",
+      "email": "neersarsiya@gamil.com",
+      "password": "Neersarsiya12",
+      "id": 12
     }
   ],
   "cart": [
@@ -81,7 +102,7 @@
         "rate": 4.1,
         "count": 259
       },
-      "qyt": 1
+      "qyt": 6
     },
     {
       "id": 11,

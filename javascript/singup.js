@@ -77,6 +77,7 @@ e.preventDefault()
                         headers:{"content-type":"application/json"},
                         body:JSON.stringify(singupdata)
                     })
+                    localStorage.setItem("login",JSON.stringify(singupdata))
                     localStorage.setItem("sing",true)
                     window.location.href="/index.html"
                 }catch(err){
